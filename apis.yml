@@ -1,9 +1,29 @@
 aid: curve-health
 name: Curve Health
-description: Curve Health is a company surfaced as a portfolio company of lightspeed-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Curve Health is a New York City-based digital health technology company, founded in 2020,
+  that delivers a virtual care and telemedicine platform purpose-built for skilled nursing
+  facilities (SNFs) and senior care. The platform unifies telemedicine, a health information
+  exchange, predictive analytics, and smart billing into a single system so nurses, physicians,
+  behavioral health providers, and facility operators can deliver care in place and reduce
+  avoidable hospital transfers. Curve Health reports enabling 150,000+ remote care visits and an
+  80% reduction in hospitalizations for partner facilities, and is backed by Lightspeed Venture
+  Partners and Morningside. This API Evangelist profile tracks the company's public web and
+  product-documentation surface; Curve Health does not currently publish a public developer API,
+  developer portal, or OpenAPI definition.
 url: https://raw.githubusercontent.com/api-evangelist/curve-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/5f629cb2a33e3901e5aeedaa/5f83b8b2dc69f8d4f4c6701c_GettyImages-1245043786.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,12 +32,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Health
+- Healthcare
+- Telemedicine
+- Telehealth
+- Digital Health
+- Senior Care
+- Skilled Nursing
+- Health Information Exchange
+- Predictive Analytics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/curve-health-domain-security.yml
+- type: Website
+  url: https://www.curvehealth.com/
+- type: Documentation
+  url: https://help.curvehealth.com/
+- type: Support
+  url: https://www.curvehealth.com/contact
+- type: Blog
+  url: https://www.curvehealth.com/blog
+- type: TermsOfService
+  url: https://www.curvehealth.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.curvehealth.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
